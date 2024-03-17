@@ -121,7 +121,7 @@ HEADLINE_INFO_MODE=precmd # precmd|prompt (whether info line is in PROMPT or pri
 HEADLINE_LINE_MODE=on # on|auto|off (whether to print the line above the prompt)
 
 # Separator character
-HEADLINE_LINE_CHAR='_' # repeated for line above information
+HEADLINE_LINE_CHAR='▁' # repeated for line above information
 
 # Separator styles
 HEADLINE_STYLE_JOINT_LINE=$HEADLINE_STYLE_JOINT
