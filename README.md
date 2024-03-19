@@ -80,6 +80,8 @@ More details in **[Terminal Setup](docs/Terminal-Setup.md)**
 ## Screenshots
 Screenshots of theme in [iTerm2](https://iterm2.com/index.html). Using [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode) for continuous line and fancy icons.
 
+**NOTE:** A font with ligatures is no longer required for a continuous line.
+
 > <img src="https://raw.githubusercontent.com/moarram/headline/assets/images/theme-light.png" width="600"/>
 >
 > Status showing `+` for staged changes, `!` for unstaged changes, and `?` for untracked files (configurable).
