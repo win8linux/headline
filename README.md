@@ -44,7 +44,7 @@ When enabled with `HEADLINE_DO_CLOCK=true`, display the time to the right of the
 ## Installation
 Download the `headline.zsh-theme` file.
 ```
-$ wget https://raw.githubusercontent.com/moarram/headline/main/headline.zsh-theme
+$ wget https://raw.githubusercontent.com/win8linux/headline/main/headline.zsh-theme
 ```
 
 In your `~/.zshrc`, source the `headline.zsh-theme` file.
@@ -68,7 +68,7 @@ More details in **[Customization](docs/Customization.md)**
 
 
 ## Terminal Setup
-For the continuous line above the prompt, use a font with ligatures such as [Fira Code](https://github.com/tonsky/FiraCode).
+For the continuous line above the prompt, no further setup is needed! Use any font you want, as long as it has the ▁ (Lower One-eighth Block) symbol.
 
 If you want symbols, use a font that has them such as [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode) and assign your desired symbols to the prefix variables.
 

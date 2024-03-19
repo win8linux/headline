@@ -5,7 +5,35 @@ The following features depend on terminal settings.
 
 
 ## Continuous Line
-For the continuous separator line above the prompt you need a font with ligatures (and a terminal that supports them). I know [Fira Code](https://github.com/tonsky/FiraCode) works well, but any font that joins adjacent underscores will do. You may need to enable font ligatures in your terminal settings.
+For the continuous separator line above the prompt, you need a font that has the ▁ (`U+2581`) symbol. These are the known compatible fonts:
+
+* IBM Plex Sans
+* Hack
+* Fira Code
+* Anonymous Pro
+* Courier New
+* Fantasque Sans Mono
+* Free Courier
+* FreeMono
+* Hermit
+* Inconsolata
+* Jetrains Mono
+* Latin Modern Mono
+* League Mono
+* Liberation Mono
+* Linux Libertine Mono O
+* Monospace
+* monofur
+* Noto Mono
+* Noto Sans Mono
+* Terminus
+* Ubuntu Mono
+* Andale Mono
+* Courier Prime Code
+* DejaVu Sans Mono
+* IBM 3270
+
+Even if your current font does not have the symbol, it is very likely that you have another font installed which does have it being used as fallback.
 
 <br>
 
