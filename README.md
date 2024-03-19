@@ -1,5 +1,6 @@
 # Headline ZSH Theme
-<img src="https://raw.githubusercontent.com/moarram/headline/assets/images/slice.png" width="600"/>
+![Screenshot_20240319_105537](https://github.com/win8linux/headline/assets/11584387/af1ece62-70e5-419a-b251-b1a0fc6d8535)
+
 
 Headline. A stylish theme with deliberate use of space. No dependencies. Customizable.
 
