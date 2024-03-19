@@ -44,7 +44,7 @@ When enabled with `HEADLINE_DO_CLOCK=true`, display the time to the right of the
 ## Installation
 Download the `headline.zsh-theme` file.
 ```
-$ wget https://raw.githubusercontent.com/moarram/headline/main/headline.zsh-theme
+$ wget https://raw.githubusercontent.com/win8linux/headline/main/headline.zsh-theme
 ```
 
 In your `~/.zshrc`, source the `headline.zsh-theme` file.
@@ -68,7 +68,7 @@ More details in **[Customization](docs/Customization.md)**
 
 
 ## Terminal Setup
-For the continuous line above the prompt, use a font with ligatures such as [Fira Code](https://github.com/tonsky/FiraCode).
+For the continuous line above the prompt, no further setup is needed! Use any font you want, as long as it has the ▁ (Lower One-eighth Block) symbol.
 
 If you want symbols, use a font that has them such as [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode) and assign your desired symbols to the prefix variables.
 
@@ -79,6 +79,8 @@ More details in **[Terminal Setup](docs/Terminal-Setup.md)**
 
 ## Screenshots
 Screenshots of theme in [iTerm2](https://iterm2.com/index.html). Using [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode) for continuous line and fancy icons.
+
+**NOTE:** A font with ligatures is no longer required for a continuous line.
 
 > <img src="https://raw.githubusercontent.com/moarram/headline/assets/images/theme-light.png" width="600"/>
 >
@@ -95,6 +97,16 @@ Screenshots of theme in [iTerm2](https://iterm2.com/index.html). Using [FiraCode
 > <img src="https://raw.githubusercontent.com/moarram/headline/assets/images/feature-clock-and-exit-code.png" width="600"/>
 >
 > Optionally show clock and exit code.
+
+Screenshots of updated theme in [Konsole](https://apps.kde.org/konsole) using [IBM Plex Mono](https://www.ibm.com/plex/) and [BlexMono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/IBMPlexMono) for icons.
+
+> ![Screenshot_20240319_101937](https://github.com/win8linux/headline/assets/11584387/8088f029-06ce-4c23-9075-7fd5c18099ae)
+>
+> Status showing `+` for staged changes, `!` for unstaged changes, and `↑` for untracked files (configurable).
+
+> ![Screenshot_20240319_104232](https://github.com/win8linux/headline/assets/11584387/25350ac1-b150-4cdd-8b44-3b236194a966)
+>
+> Optional icons, special font needed (such as BlexMono here).
 
 <br>
 
