@@ -98,6 +98,16 @@ Screenshots of theme in [iTerm2](https://iterm2.com/index.html). Using [FiraCode
 >
 > Optionally show clock and exit code.
 
+Screenshots of updated theme in [Konsole](https://apps.kde.org/konsole) using [IBM Plex Mono](https://www.ibm.com/plex/) and [BlexMono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/IBMPlexMono) for icons.
+
+> ![Screenshot_20240319_101937](https://github.com/win8linux/headline/assets/11584387/8088f029-06ce-4c23-9075-7fd5c18099ae)
+>
+> Status showing `+` for staged changes, `!` for unstaged changes, and `↑` for untracked files (configurable).
+
+> ![Screenshot_20240319_104232](https://github.com/win8linux/headline/assets/11584387/25350ac1-b150-4cdd-8b44-3b236194a966)
+>
+> Optional icons, special font needed (such as BlexMono here).
+
 <br>
 
 
