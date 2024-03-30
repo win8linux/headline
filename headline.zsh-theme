@@ -74,7 +74,12 @@ IS_SSH=$? # 0=true, 1=false
 
 # Info sources (enclose in single quotes as these will be eval'd, use empty string to hide segment)
 HEADLINE_USER_CMD='echo $USER'
-HEADLINE_HOST_CMD='hostname -s' # consider 'basename "$VIRTUAL_ENV"' to replace host with environment
+
+# systemd-based Linux systems
+HEADLINE_HOST_CMD='hostnamectl hostname' # consider 'basename "$VIRTUAL_ENV"' to replace host with environment
+# Every other system
+#HEADLINE_HOST_CMD='hostname -s' # consider 'basename "$VIRTUAL_ENV"' to replace host with environment
+
 HEADLINE_PATH_CMD='print -rP "%~"'
 HEADLINE_GIT_BRANCH_CMD='headline_git_branch'
 HEADLINE_GIT_STATUS_CMD='headline_git_status'
@@ -83,7 +88,7 @@ HEADLINE_GIT_STATUS_CMD='headline_git_status'
 HEADLINE_USER_PREFIX='' # consider " "
 HEADLINE_HOST_PREFIX='' # consider " "
 HEADLINE_PATH_PREFIX='' # consider " "
-HEADLINE_BRANCH_PREFIX='' # consider " "
+HEADLINE_BRANCH_PREFIX=' ' # consider " "
 
 # Info joints
 HEADLINE_USER_BEGIN=''
@@ -155,9 +160,9 @@ HEADLINE_PROMPT='%(#.#.%(!.!.$)) ' # consider "%#"
 HEADLINE_RPROMPT=''
 
 # Clock (prepends to RPROMPT)
-HEADLINE_DO_CLOCK=false # whether to show the clock
-HEADLINE_STYLE_CLOCK=$faint
-HEADLINE_CLOCK_FORMAT='%l:%M:%S %p' # consider "%+" for full date (see man strftime)
+HEADLINE_DO_CLOCK=true # whether to show the clock
+HEADLINE_STYLE_CLOCK=$italic
+HEADLINE_CLOCK_FORMAT='%+' # consider "%+" for full date (see man strftime)
 
 # Exit code
 HEADLINE_DO_ERR=false # whether to show non-zero exit codes above prompt
